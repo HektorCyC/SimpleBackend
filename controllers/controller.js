@@ -39,7 +39,7 @@ var controller = {
             if (err) return res.status(500).send({ message: 'Error storing the item into the DB' });
             if (!documentStored) return res.status(404).send({ message: 'Cannot save the item' });
 
-            return res.status(200).send({ message: 'Item saved on dB', itemDetails: projectStored });
+            return res.status(200).send({ message: 'Item saved on dB', itemDetails: documentStored });
         });
     },
     apiPUT: function (req, res) {
