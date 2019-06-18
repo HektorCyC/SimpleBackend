@@ -2,7 +2,7 @@
 
 var mongoose = require('mongoose');
 var app = require('./app');
-var port = 3700;
+var port = 3700 || NODE_ENV;
 
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb+srv://adminuser:testadmin@cluster0-3ho0z.mongodb.net/tratotest?retryWrites=true&w=majority').then(() => {
