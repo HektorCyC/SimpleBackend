@@ -1,0 +1,26 @@
+{
+  "name": "simplebackend",
+  "version": "1.0.0",
+  "description": "Boilerplate for simple Backend made with NodeJS and Mongoose",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HektorCyC/SimpleBackend.git"
+  },
+  "author": "Hector CyC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HektorCyC/SimpleBackend/issues"
+  },
+  "homepage": "https://github.com/HektorCyC/SimpleBackend#readme"
+}
