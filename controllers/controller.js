@@ -34,6 +34,7 @@ var controller = {
 
         model.user = params.user;
         model.postBody = params.postBody;
+        model.title = params.title;
 
         model.save((err, documentStored) => {
             if (err) return res.status(500).send({ message: 'Error storing the item into the DB' });
